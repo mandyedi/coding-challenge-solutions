@@ -1,0 +1,25 @@
+#! /usr/bin/env python
+  
+# # Prime numbers
+  # 
+  # Return a list of prime numbers beginning with 2
+  # Max is the number of primes
+  # #
+def prime(max):
+	index = 1
+	i = 2
+	l = []
+	while index <= max:
+		prime = 1
+		for j in range(2, i-1):
+			if i % j == 0:
+				prime = 0
+			
+		if prime:
+			#print "%d. %d" % (index, i)
+			l.append(i)
+			index = index + 1
+		i = i + 1
+	return l
+	
+print prime(10)

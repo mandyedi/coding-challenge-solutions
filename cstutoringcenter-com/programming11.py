@@ -1,0 +1,26 @@
+#! /usr/bin/env python
+
+# # www.cstutoringcenter.com
+  #
+  # Problem 11 solution
+  # Problem: Given an input file of 1000 randomly generated x, y pairs (programming11.txt),
+  #          how many of those pairs lie in Quadrant III?
+  #
+  # author:  mandyedi
+  # contact: mandyedi@gmail.com
+  #
+  # Python version: 2.7.2
+  # #
+  
+f = open("programming11.txt", 'r')
+
+n = 0
+for line in f:
+	pairs = line.split(',')
+	x = int(pairs[0])
+	y = int(pairs[1])
+	if x < 0 and y < 0:
+		#print x, y
+		n = n + 1
+		
+print "Number of pairs in Quadrant III: %d" % n
