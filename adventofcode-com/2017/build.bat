@@ -1,0 +1,1 @@
+g++ 012.cpp -o solve.exe -std=c++11
