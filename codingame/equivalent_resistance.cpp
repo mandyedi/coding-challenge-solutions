@@ -1,6 +1,6 @@
 /*
 Title: Equivalent Resistance, Circuit Building
-Tags: parsing, physics, stack
+Tags: easy, parsing, physics, stack
 */
 
 #include <iostream>
