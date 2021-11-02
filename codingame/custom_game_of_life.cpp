@@ -63,7 +63,7 @@ int main()
         nextGrid.push_back(line);
     }
 
-        for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++) {
         for (int row = 0; row < h; row++) {
             for (int coll = 0; coll < w; coll++) {
                 unsigned int n = getNumberOfNeighbours(currentGrid, w, h, row, coll);
@@ -71,7 +71,7 @@ int main()
             }
         }
 
-        currentGrid.swap(nextGrid);
+    currentGrid.swap(nextGrid);
     }
 
     printGrid(currentGrid, w, h);
