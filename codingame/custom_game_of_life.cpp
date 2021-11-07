@@ -1,6 +1,6 @@
 /*
 Title: Custom Game of Life
-Tags: easy, conditions, loops, lists, simulation, 2D array
+Tags: medium, conditions, loops, lists, simulation, 2D array
 */
 
 #include <iostream>
